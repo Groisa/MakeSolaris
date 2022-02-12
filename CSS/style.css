@@ -1,0 +1,188 @@
+
+/* reset */
+body {
+    background-color: #CDF0EA;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+}
+/* sidebar */
+nav {
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    position:fixed;
+    top: 0;
+    width: 50px;
+    background: #BEAEE2;
+    height: 100%;
+}
+nav ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+/* header */
+.header-page-one {
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #F7DBF0;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.header-div-one a {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    
+}
+.header-div-one img {
+    margin-left: 20px ;
+    color: black;
+    
+}
+.header-div-two a {
+    margin-left: 20px ;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+   
+}
+/* main */
+main {
+    padding: 0px;
+    margin: 0px;
+}
+h1 {
+    color: #BEAEE2;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    position: relative ;
+    top: 15px;
+    font-family: 'Lobster', cursive;
+    text-shadow: #8877b1 1px 4px 0px ;
+}
+/* Animação H1 */
+.slideInLeft {
+    -webkit-animation-name: slideInLeft;
+    animation-name: slideInLeft;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @-webkit-keyframes slideInLeft {
+    0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+    }
+    @keyframes slideInLeft {
+    0% {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    }
+} 
+.promo img {
+    display: block;
+    width: 209px;
+    height: 209px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 15px;
+}
+/* Retirar depois, so para fins de teste */
+.promo p {
+    display: flex;
+    color: white;
+    position: relative;
+    top: -120px;
+    left: 120px;
+}
+/* top do momento */
+h2 {
+    padding: 0px;
+    font-size: 25px;
+    margin: 0px;
+    margin-bottom:20px;
+    text-align: center;
+    color: #BEAEE2;
+    text-shadow: #8877b1 1px 4px 0px ;
+}
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0;
+}
+.image img {
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+}
+/* Descontão */
+h3 {
+    padding: 0px;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #BEAEE2;
+    text-shadow: #8877b1 1px 4px 0px ;
+}
+/* Imagem FeedBack */
+.image-feedback img {
+    width: 360px;
+    height: 164px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    position: relative;
+   
+}
+/* Retirar depois, so para fins de teste */
+.image-feedback p {
+    display: flex;
+    color: white;
+    position: relative;
+    top: -110px;
+    left: 120px;
+}
+/* Presente Perfeito */
+h4 {
+    padding: 0px;
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #BEAEE2;
+    text-shadow: #8877b1 1px 4px 0px ;
+}
+/* frete gratis rodape */
+footer div {
+    background:black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px ;
+}

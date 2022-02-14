@@ -1,0 +1,80 @@
+/* reset */
+body {
+    background-color: #CDF0EA;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+}
+/* header */
+.header-page-one {
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #F7DBF0;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.header-div-one a {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    
+}
+.header-div-one img {
+    margin-left: 20px ;
+    color: black;
+    
+}
+.header-div-two a {
+    margin-left: 20px ;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+/* main */
+.img-maq {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 209px;
+    height: 209px;
+    margin-top: 60px;
+}
+.title-maquiagem {
+    font-size: 20px;
+    text-align: center;
+    color: #BEAEE2;
+    text-shadow: #8877b1 2 px 4px 0px ;
+}
+.coluns img {
+    width: 70px;
+    height: 70px;
+}
+.coluns p {
+    font-size: 10px;
+}
+.coluns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.coluns div {
+    margin: 10px 15px;
+}
+.coluns p {
+    text-align: center;
+}
+
+/* frete gratis rodape */
+footer div {
+    background:black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px ;
+}

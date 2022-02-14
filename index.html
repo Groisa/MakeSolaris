@@ -7,7 +7,6 @@
         <title>SolarisMake</title>
         <link rel="stylesheet" href="CSS/style.css">
         <script src="https://kit.fontawesome.com/bd041e700a.js" crossorigin="anonymous"></script>
-        <script src="Java.js"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap" rel="stylesheet">
@@ -15,7 +14,7 @@
     <body>
        <header class="header-page-one">
             <div class="header-div-one">
-                <a href="#"><i class="fa-solid fa-bars-staggered"></i></a>
+                <a href="" onclick=""><i class="fa-solid fa-list"></i></a>
                 <img src="#" alt="logo" class="animated.flip">
             </div>
             <div class="header-div-two"> 
@@ -23,15 +22,13 @@
                 <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
             </div> 
         </header>
-        <nav>
-            <ul>
-                <li><a href="#"> item </a></li>
-                <li><a> item </a></li>
-                <li><a> item </a></li>
-                <li><a> item </a></li>
-                <li><a> item </a></li>
-                <li><a> item </a></li>
-            </ul>
+        <nav id="menu">
+                <a href="#" onclick="close()"><i class="fa-solid fa-circle-xmark"></i></a>
+                <a> Pesquisas </a>
+                <a>Maquiagens</a>
+                <a>Perfumaria</a>
+                <a> Meu Cabelo </a>
+                <a> Dúvidas Frequentes</a>
         </nav>
         <main>
             <h1 class="slideInLeft">
@@ -50,7 +47,7 @@
             </div>
             <h3> Descontão</h3>
             <div class="image"> 
-                <a href="#"><img src="imagens/teste.png" alt="prod"></a>
+                <a href="#" onclick="open()"><img src="imagens/teste.png" alt="prod"></a>
                 <a><img src="imagens/teste.png" alt="prod"></a>
                 <a><img src="imagens/teste.png" alt="prod"></a>
                 <a><img src="imagens/teste.png" alt="prod"></a>
@@ -70,5 +67,6 @@
         <footer>
             <div class:provisoria><img src="#" alt="frete Gratis"></div>
         </footer>
+
     </body>
     </html>

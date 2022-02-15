@@ -37,6 +37,7 @@ body {
     font-size: 18px;
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 nav :hover {
     font-style: italic;
@@ -59,11 +60,13 @@ nav :hover {
     border: none;
     font-size: 25px;
     cursor: pointer;
+    margin-left: 15px;
 }
 .header-div-one span {
     font-size: 25px;
     font-weight: bold;
     color: black;
+    cursor: pointer;
     
 }
 .header-div-one img {

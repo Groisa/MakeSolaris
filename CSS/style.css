@@ -18,6 +18,9 @@ body {
     top: 0px;
     left: 0px;
     z-index: 1;
+    border-top-right-radius: 100px ;
+    opacity: 0.9;
+    
 
 }
 #menu a {
@@ -28,7 +31,7 @@ body {
     text-decoration: none;
     color: black;
     transition: 1s;
-    
+    opacity: 1;
 }
 #menu span {
     display: block;
@@ -41,7 +44,11 @@ body {
 }
 nav :hover {
     font-style: italic;
-    font-size: 20px !important;
+    /* font-size: 20px !important; */
+    background: white;
+    width: 100px;
+    border-radius: 200px ;
+    text-align: center;
 }
 /* header */
 .header-page-one {

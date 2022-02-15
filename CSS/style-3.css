@@ -51,7 +51,7 @@ nav :hover {
 }
 
 /* header */
-.header-page-two {
+.header-page-tree {
     display: flex;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     background: #F7DBF0;
@@ -88,7 +88,7 @@ nav :hover {
     color: black;
 }
 /* main */
-.img-maq {
+.img-perf {
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -96,7 +96,7 @@ nav :hover {
     height: 209px;
     margin-top: 60px;
 }
-.title-maquiagem {
+.title-perfumaria {
     font-size: 20px;
     text-align: center;
     color: #BEAEE2;
@@ -120,7 +120,7 @@ nav :hover {
 
 }
 .coluns div {
-    margin: 10px 15px;
+    margin: 10px 28px;
 }
 .coluns p {
     text-align: center;

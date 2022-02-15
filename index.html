@@ -10,21 +10,28 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
     </head>
     <body>
        <header class="header-page-one">
             <div class="header-div-one">
-                <a href="" onclick=""><i class="fa-solid fa-list"></i></a>
+                <span onclick="abrirmenu()">
+                    <i class="fa-solid fa-list"></i>
+                </span>
                 <img src="#" alt="logo" class="animated.flip">
             </div>
             <div class="header-div-two"> 
-                <a href="index-2.html"><i class="fa-solid fa-heart"></i></a>
-                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                <button class="btn">
+                    <i class="fa-solid fa-heart"></i>
+                </button>
+                <span class="btn">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </button>
             </div> 
         </header>
         <nav id="menu">
-                <a href="#" onclick="close()"><i class="fa-solid fa-circle-xmark"></i></a>
-                <a> Pesquisas </a>
+                <span onclick="fecharmenu()" ><i class="fa-solid fa-circle-xmark"></i></span>
+                <a href="index-2.html"> Pesquisas </a>
                 <a>Maquiagens</a>
                 <a>Perfumaria</a>
                 <a> Meu Cabelo </a>

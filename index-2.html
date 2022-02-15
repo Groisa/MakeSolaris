@@ -10,18 +10,34 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap" rel="stylesheet">
+        <script src="script-2.js"></script>
 </head>
 <body>
-    <header class="header-page-one">
+    <header class="header-page-two">
         <div class="header-div-one">
-            <a href="" onclick=""><i class="fa-solid fa-list"></i></a>
+            <span onclick="abrirmenu()">
+                <i class="fa-solid fa-list"></i>
+            </span>
             <img src="#" alt="logo" class="animated.flip">
         </div>
         <div class="header-div-two"> 
-            <a href="#"><i class="fa-solid fa-heart"></i></a>
-            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+            <button class="btn">
+                <i class="fa-solid fa-heart"></i>
+            </button>
+            <button class="btn">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
         </div> 
     </header>
+    <nav id="menu">
+        <span onclick="fecharmenu()" ><i class="fa-solid fa-circle-xmark"></i></span>
+        <a href="index.html"> Pesquisas </a>
+        <a>Maquiagens</a>
+        <a>Perfumaria</a>
+        <a>Meu Cabelo </a>
+        <a>Dúvidas Frequentes</a>
+    </nav>
+    
     <main>
         <img class="img-maq" src="imagens/teste.png" alt="logo chamativa">
         <div class="title-maquiagem">

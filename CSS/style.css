@@ -9,22 +9,38 @@ body {
     font-family: 'Anton', sans-serif;
 }
 /* sidebar */
-nav {
+#menu {
     display: none;
     background: #BEAEE2;
     height: 100%;
-    width: 150px ;
+    width: 180px ;
     position: fixed;
     top: 0px;
     left: 0px;
     z-index: 1;
+
 }
-nav a {
+#menu a {
     display: block;
     margin-left: 25px;
     margin-top: 20px;
     font-size: 18px;
     text-decoration: none;
+    color: black;
+    transition: 1s;
+    
+}
+#menu span {
+    display: block;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}
+nav :hover {
+    font-style: italic;
+    font-size: 20px !important;
 }
 /* header */
 .header-page-one {
@@ -35,8 +51,16 @@ nav a {
     align-items: center;
     justify-content: space-between;
     padding: 0px 20px;
+    box-sizing: border-box;
+   
 }
-.header-div-one a {
+.btn {
+    background: none;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+.header-div-one span {
     font-size: 25px;
     font-weight: bold;
     color: black;
@@ -47,7 +71,7 @@ nav a {
     color: black;
     
 }
-.header-div-two a {
+.header-div-two button {
     margin-left: 20px ;
     font-size: 25px;
     font-weight: bold;

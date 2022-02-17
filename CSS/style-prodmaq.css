@@ -1,0 +1,184 @@
+/* reset */
+body {
+    background-color: #CDF0EA;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Anton', sans-serif;
+}
+/* sidebar */
+#menu {
+    display: none;
+    background: #BEAEE2;
+    height: 100%;
+    width: 180px ;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    border-top-right-radius: 100px ;
+    opacity: 0.9;
+    
+
+}
+#menu a {
+    display: block;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+    opacity: 1;
+}
+#menu span {
+    display: block;
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+nav :hover {
+    font-style: italic;
+    /* font-size: 20px !important; */
+    background: white;
+    width: 100px;
+    border-radius: 200px ;
+    text-align: center;
+}
+
+/* header */
+.header-page-five {
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #F7DBF0;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    box-sizing: border-box;
+   
+}
+.btn {
+    background: none;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.header-div-one span {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    
+}
+.header-div-one img {
+    margin-left: 20px ;
+    color: black;
+    
+}
+.header-div-two button {
+    margin-left: 20px ;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+}
+/* main */
+.promo img {
+    display: block;
+    width: 390px;
+    height: 209px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+/* Retirar depois, so para fins de teste */
+.promo p {
+    display: flex;
+    color: white;
+    position: relative;
+    top: -120px;
+    left: 120px;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    color: #BEAEE2;
+    text-shadow: #8877b1 2px 4px 0px ;
+}
+.coluns{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card-img {
+    border: black;
+    border-radius: 20px;
+    border-style: solid;
+    width: 100px;
+    height: 220px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #F7DBF0;
+
+}
+.imgcard img {
+    width: 90%;
+    height: 100px;
+    display: block;
+    border: black;
+    border-style: solid;
+    border-radius: 20px;
+    margin-top: 3px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-licar {
+    margin-top: 2px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 25px;
+}
+.btn-licar-geral  {
+    margin: 0 8px;
+    padding: 0;
+
+}
+.btn-quant {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-quant button {
+    border: none;
+    background: none;
+    font-size: 30px;
+    padding:  0 10px;
+    cursor: pointer;
+}
+
+.btn-add {
+    border: none;
+    background: #BEAEE2;
+    width: 100%;
+    cursor: pointer;
+}
+.btn-add p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    font-size: 17px ;
+    font-weight: bold;
+}
+.coluns .card-img {
+    margin: 10px 5px;
+}

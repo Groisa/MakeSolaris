@@ -182,3 +182,48 @@ h2 {
 .coluns .card-img {
     margin: 10px 5px;
 }
+
+/* h5 {
+    font-size: 30px;
+    text-align: center;
+    color: #BEAEE2;
+    text-shadow: #8877b1 2px 4px 0px ;
+} */
+#po-compacto {
+    margin-top: 50px;
+}
+#rimel {
+    margin-top: 50px;
+}
+#delineador {
+    margin-top: 50px;
+}
+#meu-cilios {
+    margin-top: 50px;
+}
+#blush {
+    margin-top: 50px;
+}
+#batons {
+    margin-top: 50px;
+}
+.coluns1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.coluns1 .card-img {
+    margin: 10px 2px;
+}
+#gloss {
+    margin-top: 50px;
+}
+/* frete gratis rodape */
+footer div {
+    background:black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px ;
+}

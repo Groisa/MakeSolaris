@@ -20,10 +20,10 @@
             <img src="#" alt="logo" class="animated.flip">
         </div>
         <div class="header-div-two"> 
-            <button class="btn">
+            <button class="btn-amei" onclick="openlike()">
                 <i class="fa-solid fa-heart"></i>
             </button>
-            <button class="btn">
+            <button class="btn-car" onclick="opencart()">
                 <i class="fa-solid fa-cart-shopping"></i>
             </button>
         </div> 
@@ -37,7 +37,7 @@
         <a href="index.html">Home</a>
         <a href="Perfumaria.html">Perfumaria</a>
         <a href="Meu-cabelo.html">Meu Cabelo </a>
-        <a>Dúvidas Frequentes</a>
+        
     </nav>
     
     <main>
@@ -81,7 +81,23 @@
         </section>
 
     </main>
-    
+     <!-- carrinho compras -->
+     <aside class="carrinho-compra">
+        <header>
+            <button onclick="closecart()"><i class="fa-solid fa-circle-xmark"></i></button>
+            <span>Carrinho de Compras</span>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </header>
+    </aside>
+    <!-- curtidos -->
+    <aside class="eu-amei">
+        <header>
+            <button onclick="closelike()">
+                <i class="fa-solid fa-circle-xmark"></i></button>
+                <span>Eu Amei</span>
+                <i class="fa-solid fa-cart-shopping"></i>
+        </header>
+    </aside>
     <footer>
         <div class:provisoria><img src="#" alt="frete Gratis"></div>
     </footer>

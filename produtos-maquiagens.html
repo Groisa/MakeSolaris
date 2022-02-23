@@ -19,10 +19,10 @@
             <img src="#" alt="logo" class="animated.flip">
         </div>
         <div class="header-div-two"> 
-            <button class="btn">
+            <button class="btn-amei" onclick="openlike()">
                 <i class="fa-solid fa-heart"></i>
             </button>
-            <button class="btn">
+            <button class="btn-car" onclick="opencart()">
                 <i class="fa-solid fa-cart-shopping"></i>
             </button>
         </div> 
@@ -36,7 +36,7 @@
             <a href="Maquiagem.html">Maquiagens</a>
             <a href="Perfumaria.html">Perfumaria</a>
             <a href="Meu-cabelo.html"> Meu Cabelo </a>
-            <a> Dúvidas Frequentes</a>
+            
     </nav>
     <main>
         <div class="promo">
@@ -614,8 +614,6 @@
                 <button class="btn-add"><p>Adicionar</p></button>
             </div>
         </section>
-        <!-- modal -->
-        <!-- asside sombra -->
     </main>
     <aside>
         <div class="modal" id="modal-sombra"> 
@@ -628,6 +626,23 @@
                 <p> produto que vai te deixar cada vez mais linda </p>
             </div>  
         </div>
+    </aside>
+     <!-- carrinho compras -->
+     <aside class="carrinho-compra">
+        <header>
+            <button onclick="closecart()"><i class="fa-solid fa-circle-xmark"></i></button>
+            <span>Carrinho de Compras</span>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </header>
+    </aside>
+    <!-- curtidos -->
+    <aside class="eu-amei">
+        <header>
+            <button onclick="closelike()">
+                <i class="fa-solid fa-circle-xmark"></i></button>
+                <span>Eu Amei</span>
+                <i class="fa-solid fa-cart-shopping"></i>
+        </header>
     </aside>
 
     <footer>

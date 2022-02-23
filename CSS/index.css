@@ -42,14 +42,28 @@ body {
     color: black;
     cursor: pointer;
 }
-nav :hover {
-    font-style: italic;
-    /* font-size: 20px !important; */
-    background: white;
-    width: 100px;
-    border-radius: 200px ;
+.div-pesq {
+    display: flex;
+    align-items: flex-end ;
+    justify-content: center;
+    
+}
+.div-pesq input {
+    width: 110px;
+    margin-left: 0px;
+    margin-top: 20px;
+    height: 20px;
+    padding: 0;
+    border-radius: 20px;
+    color: black;
+    font-size: 15px;
     text-align: center;
 }
+.div-pesq img {
+    width: 20px;
+    height: 20px;
+}
+
 /* header */
 .header-page-one {
     display: flex;

@@ -17,11 +17,11 @@ document.getElementById("input-pesq").addEventListener("change", pesquisarInput 
 function pesquisarInput(evento) {
     const btnPesq = evento.target.value
     if(btnPesq == "perfumaria" || btnPesq == "perfume" ){
-        return window.location.replace("http://127.0.0.1:5500/Perfumaria.html")
+        return window.location.replace("Perfumaria.html")
     } else if(btnPesq == "maquiagem" || btnPesq == "maquiagens" || btnPesq == "make")  {
-                return window.location.replace("http://127.0.0.1:5500/Maquiagem.html")
+                return window.location.replace("Maquiagem.html")
     }else if (btnPesq == "cabelo" || btnPesq == "meu cabelo" || btnPesq == "cabeleira") {
-                return window.location.replace("http://127.0.0.1:5500/Meu-cabelo.html") 
+                return window.location.replace("Meu-cabelo.html") 
  }  
 document.getElementById("btn-pesq").addEventListener("click", pesquisarBtn )
 

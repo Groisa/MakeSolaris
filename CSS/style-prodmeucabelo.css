@@ -170,22 +170,18 @@ h2 {
     padding: 0;
 
 }
-.btn-quant {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 5px;
-
+.product-title {
+    padding: 0px;
+    margin: 0px;
 }
-.btn-quant button {
+.btn-add {
     border: none;
-    background: none;
-    font-size: 30px;
-    padding:  0 10px;
+    background: #BEAEE2;
+    width: 100%;
     cursor: pointer;
+    padding-bottom: 5px;
+    
 }
-
 .btn-add {
     border: none;
     background: #BEAEE2;
@@ -382,4 +378,14 @@ footer div {
     font-family: 'Lobster', cursive;
     text-shadow: white 1px 2px 0px ;
     cursor: pointer;
+}
+@media (min-width: 800px) {
+    .corpo {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header-page-five {
+        padding:  0 150px;
+    }
 }

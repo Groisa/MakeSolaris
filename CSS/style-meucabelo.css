@@ -144,6 +144,7 @@ body {
 }
 
 /* frete gratis rodape */
+
 footer div {
     background:black;
     color: white;
@@ -225,4 +226,14 @@ footer div {
     font-family: 'Lobster', cursive;
     text-shadow: white 1px 2px 0px ;
     cursor: pointer;
+}
+@media (min-width: 800px) {
+    .corpo {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header-page-four {
+        padding: 0 150px;
+    }
 }

@@ -151,7 +151,7 @@ footer div {
     display: flex;
     justify-content: center;
     padding: 10px;
-    margin-top: 20px ;
+    margin-top: 50px ;
 }
 /* carrinho */
 .carrinho-compra {
@@ -227,4 +227,18 @@ footer div {
     text-shadow: white 1px 2px 0px ;
     cursor: pointer;
 }
-
+@media (min-width: 800px) {
+    .corpo {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header-page-two {
+        padding: 0 150px;
+    }
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}

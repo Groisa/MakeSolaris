@@ -171,27 +171,16 @@ h2 {
     padding: 0;
 
 }
-.btn-quant {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 5px;
-
+.product-title {
+    padding: 0px;
+    margin: 0px;
 }
-.btn-quant button {
-    border: none;
-    background: none;
-    font-size: 30px;
-    padding:  0 10px;
-    cursor: pointer;
-}
-
 .btn-add {
     border: none;
     background: #BEAEE2;
     width: 100%;
     cursor: pointer;
+    padding-bottom: 5px;
     
 }
 .btn-add p {
@@ -391,6 +380,6 @@ footer div {
         margin-right: auto;
     }
     .header-page-five {
-        padding: 0 200px;
+        padding: 0 150px;
     }
 }

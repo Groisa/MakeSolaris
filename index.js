@@ -41,4 +41,4 @@ function openlike() {
 }
 function closelike() {
     document.querySelector(".eu-amei").style.display = "none"
-}
+}       

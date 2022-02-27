@@ -149,7 +149,8 @@ footer div {
     display: flex;
     justify-content: center;
     padding: 10px;
-    margin-top: 20px ;
+    margin-top: 150px ;
+
 }
 /* carrinho */
 .carrinho-compra {
@@ -224,4 +225,19 @@ footer div {
     font-family: 'Lobster', cursive;
     text-shadow: white 1px 2px 0px ;
     cursor: pointer;
+}
+@media (min-width: 800px) {
+    .corpo {
+        width: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header-page-tree {
+        padding: 0 150px;
+    }
+    footer  {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
 }

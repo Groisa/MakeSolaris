@@ -1,7 +1,118 @@
 {
-    "grups" : [
+    "groups": [
         {
-            
+            "id": "1f",
+            "name": "Hidratação",
+            "products": [
+                {
+                    "id": "2f",
+                    "name": "Nivid",
+                    "image": "imagens/teste.png",
+                    "price": 3.5
+                },
+                {
+                    "id": "3f",
+                    "name": "Nirol",
+                    "image": "imagens/teste.png",
+                    "price": 3.5
+                },
+                {
+                    "id": "4f",
+                    "name": "Nenge",
+                    "image": "imagens/teste.png",
+                    "price": 3.5
+                },
+                {
+                    "id": "5f",
+                    "name": "Doxx",
+                    "image": "imagens/teste.png",
+                    "price": 3.5
+                },
+                {
+                    "id": "6f",
+                    "name": "Dunl",
+                    "image": "imagens/teste.png",
+                    "price": 3.5
+                }
+            ]
+        },
+        {
+            "id" : "7f",
+            "name" : " Shampoo & Condicionador",
+            "products": [
+                {
+                    "id": "8f",
+                    "name": "Loreal",
+                    "image": "imagens/teste.png",
+                    "price": 3.5
+                },
+                {
+                    "id": "9f",
+                    "name": "Pantane",
+                    "image": "imagens/teste.png",
+                    "price": 3.5
+                },
+                {
+                    "id": "10f",
+                    "name": "Menge",
+                    "image": "imagens/teste.png",
+                    "price": 3.5
+                },
+                {
+                    "id": "11f",
+                    "name": "Sedol",
+                    "image": "imagens/teste.png",
+                    "price": 3.5
+                },
+                {
+                    "id": "12f",
+                    "name": "Dini",
+                    "image": "imagens/teste.png",
+                    "price": 3.5
+                },
+                {
+                    "id": "13f",
+                    "name": "Pantenel",
+                    "image": "imagens/teste.png",
+                    "price": 3.5
+                }
+            ]
+        },
+        {
+            "id": "14f",
+            "name": "Óleo Reparador",
+            "products": [
+                {
+                    "id": "15f",
+                    "name": "Crind",
+                    "image": "imagens/teste.png",
+                    "price": 3.5
+                },
+                {
+                    "id": "16f",
+                    "name": "Ringi",
+                    "image": "imagens/teste.png",
+                    "price": 3.5
+                },
+                {
+                    "id": "17f",
+                    "name": "Dumil",
+                    "image": "imagens/teste.png",
+                    "price": 3.5
+                },
+                {
+                    "id": "18f",
+                    "name": "Oucs",
+                    "image": "imagens/teste.png",
+                    "price": 3.5
+                },
+                {
+                    "id": "19f",
+                    "name": "Vrunk",
+                    "image": "imagens/teste.png",
+                    "price": 3.5
+                }
+            ]
         }
     ]
 }

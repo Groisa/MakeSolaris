@@ -1,0 +1,142 @@
+{
+    "groups" : [
+        {
+            "id": "1f",
+            "name": "Cremes",
+            "products": [
+                {
+                    "id": "2f",
+                    "name": "Novex",
+                    "image": "imagens/teste.png",
+                    "price" : 3.5
+                },
+                {
+                    "id": "3f",
+                    "name": "Chanel",
+                    "image": "imagens/teste.png",
+                    "price":3.5
+                },
+                {
+                    "id": "4f",
+                    "name": "Lyly",
+                    "image":"imagens/teste.png",
+                    "price":3.5
+                },
+                {
+                    "id": "5f",
+                    "name": "Nyly",
+                    "image" : "imagens/teste.png",
+                    "price" :3.5
+                },
+                {
+                    "id": "6f",
+                    "name": "Myly",
+                    "image": "imagens/teste.png",
+                    "price": 3.5
+                }
+            ]
+        },
+        {
+            "id": "7f",
+            "name": "Perfumes",
+            "products": [
+                {
+                    "id":"8f",
+                    "name": "414",
+                    "image":"imagens/teste.png",
+                    "price":3.5
+                },
+                {
+                    "id":"9f",
+                    "name": "Humilhão",
+                    "image":"imagens/teste.png",
+                    "price":3.5
+                },
+                {
+                    "id":"10f",
+                    "name": "Razade",
+                    "image":"imagens/teste.png",
+                    "price":3.5
+                },
+                {
+                    "id":"11f",
+                    "name": "Ogeo",
+                    "image":"imagens/teste.png",
+                    "price":3.5
+                },
+                {
+                    "id":"12f",
+                    "name": "Lyly",
+                    "image":"imagens/teste.png",
+                    "price":3.5
+                },
+                {
+                    "id":"13f",
+                    "name": "Ferrari",
+                    "image":"imagens/teste.png",
+                    "price":3.5
+                },
+                {
+                    "id":"14f",
+                    "name": "Douce",
+                    "image":"imagens/teste.png",
+                    "price":3.5
+                },
+                {
+                    "id":"15f",
+                    "name": "Chanel",
+                    "image":"imagens/teste.png",
+                    "price":3.5
+                },
+                {
+                    "id":"16f",
+                    "name": "Darnel",
+                    "image":"imagens/teste.png",
+                    "price":3.5
+                },
+                {
+                    "id":"17f",
+                    "name": "Mel",
+                    "image":"imagens/teste.png",
+                    "price":3.5
+                }
+            ]
+        },
+        {
+            "id": "18f",
+            "name": "Sabonetes",
+            "products": [
+                {
+                    "id": "19f",
+                    "name": "Luix",
+                    "image" :"imagens/teste.png",
+                    "price":3.5
+                },
+                {
+                    "id": "20f",
+                    "name": "Doves",
+                    "image" :"imagens/teste.png",
+                    "price":3.5
+                },
+                {
+                    "id": "21f",
+                    "name": "Noves",
+                    "image" :"imagens/teste.png",
+                    "price":3.5
+                },
+                {
+                    "id": "22f",
+                    "name": "Phebou",
+                    "image" :"imagens/teste.png",
+                    "price":3.5
+                },
+                {
+                    "id": "23f",
+                    "name": "Debro",
+                    "image" :"imagens/teste.png",
+                    "price":3.5
+                }
+            ]
+        }
+    ]
+}

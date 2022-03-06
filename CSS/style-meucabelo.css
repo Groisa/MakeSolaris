@@ -156,7 +156,7 @@ footer div {
 /* carrinho */
 .carrinho-compra {
     display: none;
-    width: 390px;
+    width: 360px;
     height: 100%;
     top: 0;
     left: 0;
@@ -167,10 +167,13 @@ footer div {
 .carrinho-compra header {
     background-color: #F7DBF0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 15px;
     font-size: 25px;
+}
+.carrinho-compra  span {
+    margin-right: 20px;
 }
 .carrinho-compra {
     display: none;
@@ -193,7 +196,7 @@ footer div {
 /* eu amei */
 .eu-amei {
     display: none;
-    width: 390px;
+    width: 360px;
     height: 100%;
     top: 0;
     left: 0;
@@ -204,10 +207,13 @@ footer div {
 .eu-amei header {
     background-color: #F7DBF0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     padding: 15px;
     font-size: 25px;
+}
+.eu-amei  span {
+    margin-right: 20px;
 }
 .eu-amei {
     display: none;
@@ -227,6 +233,36 @@ footer div {
     text-shadow: white 1px 2px 0px ;
     cursor: pointer;
 }
+#cart-vazio img {
+    margin-top: 5%;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background: #BEAEE2;
+    border-radius: 10px;
+}
+#cart-vazio p {
+    margin-top: 20px;
+    font-size: 35px;
+}
+#amei-vazio img {
+    margin-top: 5%;
+    width:250px;
+    height: 172.5px;
+    object-fit: cover;
+    object-position: center;
+    padding: 5px;
+    background: #BEAEE2;
+    border-radius: 10px;
+
+}
+#amei-vazio {
+    margin-top: 20px;
+    font-size: 35px;
+}
 @media (min-width: 800px) {
     .corpo {
         width: 700px;
@@ -235,5 +271,13 @@ footer div {
     }
     .header-page-four {
         padding: 0 150px;
+    }
+}
+@media (min-width: 500px) {
+    .eu-amei {
+        width: 360px;
+    }
+    .carrinho-compra {
+        width: 360px;
     }
 }

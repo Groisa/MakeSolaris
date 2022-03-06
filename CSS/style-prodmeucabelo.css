@@ -253,7 +253,7 @@ footer div {
 
 /* modal */
 
-.modal {
+/* .modal {
     display: none;
     background: #fff;
     border-radius: 8px;
@@ -304,7 +304,7 @@ footer div {
 }
 .modal header :hover {
     color: white;
-}
+} */
 /* carrinho */
 .carrinho-compra {
     display: none;
@@ -315,6 +315,7 @@ footer div {
     position: fixed;
     background-color: #CDF0EA;
     display: block;
+    overflow: auto;
 }
 .carrinho-compra header {
     background-color: #F7DBF0;
@@ -355,6 +356,7 @@ footer div {
     position: fixed;
     background-color: #CDF0EA;
     display: block;
+    overflow: auto ;
 }
 .eu-amei header {
     background-color: #F7DBF0;
@@ -411,10 +413,82 @@ footer div {
     border-radius: 10px;
 
 }
-#amei-vazio {
+#amei-vazio p {
     margin-top: 20px;
     font-size: 35px;
 }
+.apareceritens {
+    display: block;
+}
+.apagaritens {
+    display: none;
+}
+.aparecervazio {
+    display: block;
+}
+.apagarvazio {
+    display: none;
+}
+#Citem{
+    margin-top: 15px;
+    display: flex;
+    border-style:dashed ;
+    border-radius: 5px;
+    width: 330px;
+    padding: 5px 0;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Citem div {
+    margin-left: 20px;
+    align-items: center;
+    align-self: start;
+}
+#Citem img {
+    width: 90px;
+    margin-left: 3px;
+    height: 90px;
+    object-fit: cover;
+    
+
+}
+#Citem input {
+    width: 70px;
+    height: 25px;
+    align-self: center;
+    border: #8877b1 ;
+    text-align: center;
+    background: #BEAEE2;
+    margin: 20px;
+    margin-right: 40px;
+}
+#Citem .excluir {
+    font-size: 25px;
+}
+#Citem .excluiramei{
+    margin-left: 50px;
+}
+#finalPedido {
+    margin-top: 30px;
+    border: solid;
+    width: 330px;
+    border-radius: 10px;
+    color: Black;
+    background: #BEAEE2;
+    text-shadow: none;
+
+}
+#valores {
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
 @media (min-width: 800px) {
     .corpo {
         width: 700px;

@@ -43,48 +43,29 @@ function closelike() {
     document.querySelector(".eu-amei").style.display = "none"
 }       
 
-
-const jsonProducts = () => {
-   const response = fetch('/produtosMaq.json')
-   response.then((data) =>{
-       const promessa = data.json()
-       promessa.then((corpo) => {
-        console.log('acabou', corpo)
-        const gruposRoot = document.querySelector("#gruposroot")
-        for (let contador = 0;contador < corpo.groups.length; contador++) {
-            const sectitleEl = document.createElement('h2')
-            sectitleEl.textContent = corpo.groups[contador].name
-            gruposRoot.appendChild(sectitleEl)
-            const chamadorOrg = orgSectel(corpo.groups[contador])
-            gruposRoot.appendChild(chamadorOrg)
-            
+const productscart =  []
+const addcarrinho = (newitem) => {
+    const buscadora = (produto) => {
+        if (produto.id === newitem.id) {
+            return true
         }
-       })
-    .catch(() => {
-        console.log("fedeu")
-    })
-   })
-   
+        return false
+    }
+    const resultadoIndex = productscart.findIndex(buscadora)
+    if (resultadoIndex === -1 ){
+        productscart.push ({
+            id: newitem.id,
+            name: newitem.name,
+            image: newitem.image,
+            price: newitem.price,
+            qty: 1
+        })
+    } else {
+        productscart[resultadoIndex].qty = productscart[resultadoIndex].qty +1  
+    }
+    console.log(productscart)
 }
-const orgSectel = (group) => {
-        const sectEl = document.createElement('section')
-        sectEl.classList.add ("coluns")
-    group.products.forEach((item) => {
-        const cardDiv = document.createElement("div")
-        cardDiv.classList.add("card-img")
-        cardDiv.innerHTML = `
-            <div class="imgcard"><img src="${item.image}" alt="${item.name}"/></div>
-            <h3 class="product-title"> ${item.name}</h3>
-            <div class="btn-licar-geral">
-                <button class="btn-licar"><i class="fa-solid fa-heart"></i></button>
-                <button class="btn-licar"><i class="fa-solid fa-cart-shopping"></i></button>
-             </div>
-            <p> R$ <span>${item.price.toLocaleString('pt-br', { minimumFractionDigits: 2 })}</span></p>
-            <button class="btn-add"><p>Adicionar</p></button>
-        `   
-        sectEl.appendChild(cardDiv)
-    })
-    return sectEl 
+const uptadeCart = () => {
+    // adicionar itens dentro 
+    // const carrinho = document
 }
-
-jsonProducts()

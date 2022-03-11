@@ -43,7 +43,7 @@ function closelike() {
     document.querySelector(".eu-amei").style.display = "none"
 }       
 // Carrinho 
-const productscart =  []
+let productscart =  []
 const addcarrinho = (newitem) => {
     const buscadora = (produto) => {
         if (produto.id === newitem.id) {
@@ -65,9 +65,19 @@ const addcarrinho = (newitem) => {
     }
     uptadeCart()
 }
+const removeCartItens = id => {
+    productscart = productscart.filter((product) => {
+        if (product.id === id){
+            return false
+        }
+        return true 
+    })
+    uptadeCart()
+}
 const uptadeCart = () => {
     const cartvazio = document.querySelector('#apagarvaziocart')
     const CitemCart = document.querySelector('#apagarcart')
+    const UlCitemCart = CitemCart.querySelector('ul')
     if (productscart.length > 0) {
         let total = 0
         let totalPrice = 0
@@ -80,7 +90,6 @@ const uptadeCart = () => {
     //   aparecer carrinho com item
         CitemCart.classList.add('apareceritens')
         cartvazio.classList.remove('apareceritens')
-        const UlCitemCart = CitemCart.querySelector('ul')
         UlCitemCart.innerHTML = ``
         // exibir produto
         productscart.forEach((product) => {
@@ -98,12 +107,16 @@ const uptadeCart = () => {
                 </button>
             </div> 
         `
+        const BtnRemove = liItens.querySelector('button')
+        BtnRemove.addEventListener('click', () => {
+            removeCartItens(product.id)
+        })
         UlCitemCart.appendChild(liItens)
         })
     }else {
         // aparece carrinho vazio
         cartvazio.classList.add ('apareceritens')
-        CitemCart.classList.remove('aparaceritens')
+        CitemCart.classList.remove('apareceritens')
     }
 }
 uptadeCart()

@@ -42,7 +42,7 @@ function openlike() {
 function closelike() {
     document.querySelector(".eu-amei").style.display = "none"
 }       
-
+// Carrinho 
 const productscart =  []
 const addcarrinho = (newitem) => {
     const buscadora = (produto) => {
@@ -75,6 +75,8 @@ const uptadeCart = () => {
             total = total + product.qty
             totalPrice = totalPrice + product.price * product.qty
         })
+        const valores = document.querySelector('#valores p:last-child')
+        valores.textContent = totalPrice.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })
     //   aparecer carrinho com item
         CitemCart.classList.add('apareceritens')
         cartvazio.classList.remove('apareceritens')
@@ -105,3 +107,10 @@ const uptadeCart = () => {
     }
 }
 uptadeCart()
+
+
+
+
+
+
+// eu amei

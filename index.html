@@ -74,70 +74,72 @@
                 <a><img src="imagens/teste.png" alt="prod"></a>
             </div>
         </main>
-        <!-- carrinho -->
-        <aside class="carrinho-compra">
-            <header>
-                <button onclick="closecart()"><i class="fa-solid fa-circle-xmark"></i></button>
-                <span>Carrinho de Compras</span>
-                <button><i class="fa-solid fa-heart"></i></button>
-            </header>
-           <div id="apagarvaziocart">
-                <div id="cart-vazio">
-                    <img src="imagens/cart-empty-flat.d6b4b008.gif" alt="gif carrinho vazio">
-                    <p>Carrinho Vazio...</p>
-                </div>
+    <!-- carrinho -->
+    <aside class="carrinho-compra">
+        <header>
+            <button onclick="closecart()"><i class="fa-solid fa-circle-xmark"></i></button>
+            <span>Carrinho de Compras</span>
+            <button>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+        </header>
+    <div id="apagarvaziocart">
+            <div id="cart-vazio">
+                <img src="imagens/cart-empty-flat.d6b4b008.gif" alt="gif carrinho vazio">
+                <p>Carrinho Vazio...</p>
             </div>
-            <div id="apagarcart">
-                <ul>
-                    <!-- <li>
-                        <div id="Citem">
-                            <img src="imagens/teste.png" alt="">
-                            <div>
-                                <p> Nome</p>
-                                <p> R$3,50 </p>
-                            </div>
-                            <input type="number"/>
-                                <button class="excluir">
-                                <i class="fa-solid fa-circle-xmark"></i>
-                                </button>
-                        </div> 
-                    </li>  -->
-                </ul>
-                <div id="valores">
-                    <p>Total</p>
-                    <p>R$ 3,50</p>
-                </div>
-                <button id="finalPedido"> Finalizar Pedido</button>
-            </div>     
-        </aside>
-        <!-- curtidos -->
-        <aside class="eu-amei">
-            <header>
-                <button onclick="closelike()">
-                <i class="fa-solid fa-circle-xmark"></i></button>
-                <span>Eu Amei</span>
-                <button><i class="fa-solid fa-cart-shopping"></i></button>
-            </header>
-            <div class="apagarvazio">
-                <div id="amei-vazio">
-                    <img src="imagens/giphy.gif" alt="coração quebrando">
-                    <p> Eu amei vazio...</p>
-                </div>
-            </div>
-            <div class="apagaritens">
+        </div>
+        <div id="apagarcart">
+            <ul>
+                <!-- <li>
                     <div id="Citem">
                         <img src="imagens/teste.png" alt="">
                         <div>
                             <p> Nome</p>
                             <p> R$3,50 </p>
                         </div>
-                            <button class="excluiramei">
+                        <input type="number"/>
+                            <button class="excluir">
                             <i class="fa-solid fa-circle-xmark"></i>
                             </button>
-                    </div>
-                    <button id="finalPedido"> Finalizar Pedido</button>
+                    </div> 
+                </li>  -->
+            </ul>
+            <div id="valores">
+                <p>Total</p>
+                <p>R$ 3,50</p>
             </div>
-        </aside>
+            <button id="finalPedido"> Finalizar Pedido</button>
+        </div>     
+    </aside>
+    <!-- curtidos -->
+    <aside class="eu-amei">
+        <header>
+            <button onclick="closelike()">
+            <i class="fa-solid fa-circle-xmark"></i></button>
+            <span>Eu Amei</span>
+            <button><i class="fa-solid fa-heart"></i></button>
+        </header>
+        <div class="apagarvazio">
+            <div id="amei-vazio">
+                <img src="imagens/giphy.gif" alt="coração quebrando">
+                <p> Eu amei vazio...</p>
+            </div>
+        </div>
+        <div class="apagaritens">
+                <div id="Citem">
+                    <img src="imagens/teste.png" alt="">
+                    <div>
+                        <p> Nome</p>
+                        <p> R$3,50 </p>
+                    </div>
+                        <button class="excluiramei">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                        </button>
+                </div>
+                <button id="finalPedido"> Finalizar Pedido</button>
+        </div>
+    </aside>
 
         <footer>
             <div class:provisoria><img src="#" alt="frete Gratis"></div>

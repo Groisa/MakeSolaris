@@ -359,17 +359,20 @@ footer div {
     margin-top: 20px;
     font-size: 35px;
 }
-.apareceritens {
+#apagarcart.apareceritens {
     display: block;
 }
-.apagaritens {
-    display: none;
-}
-.aparecervazio {
+#apagarvaziocart.apareceritens {
     display: block;
 }
-.apagarvazio {
+#apagarcart {
     display: none;
+}
+#apagarvaziocart {
+    display: none;
+}
+.nonelist {
+    list-style: none;
 }
 #Citem{
     margin-top: 15px;
@@ -379,13 +382,19 @@ footer div {
     width: 330px;
     padding: 5px 0;
     align-self: center;
+    align-items: center;
     margin-left: auto;
     margin-right: auto;
 }
-#Citem div {
+#Citem ul {
     margin-left: 20px;
     align-items: center;
     align-self: start;
+}
+#apagarcart ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 #Citem img {
     width: 90px;

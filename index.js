@@ -63,9 +63,45 @@ const addcarrinho = (newitem) => {
     } else {
         productscart[resultadoIndex].qty = productscart[resultadoIndex].qty +1  
     }
-    console.log(productscart)
+    uptadeCart()
 }
 const uptadeCart = () => {
-    // adicionar itens dentro 
-    // const carrinho = document
+    const cartvazio = document.querySelector('#apagarvaziocart')
+    const CitemCart = document.querySelector('#apagarcart')
+    if (productscart.length > 0) {
+        let total = 0
+        let totalPrice = 0
+        productscart.forEach(product => {
+            total = total + product.qty
+            totalPrice = totalPrice + product.price * product.qty
+        })
+    //   aparecer carrinho com item
+        CitemCart.classList.add('apareceritens')
+        cartvazio.classList.remove('apareceritens')
+        const UlCitemCart = CitemCart.querySelector('ul')
+        UlCitemCart.innerHTML = ``
+        // exibir produto
+        productscart.forEach((product) => {
+        const liItens = document.createElement('li')
+        liItens.innerHTML = `
+            <div id="Citem">
+                <img src="${product.image}" alt="${product.name}">
+                <div >
+                    <p> ${product.name}</p>
+                    <p> ${product.price.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })} </p>
+                </div>
+                <input type="number" value="${product.qty}"/>
+                <button class="excluir">
+                    <i class="fa-solid fa-circle-xmark"></i>
+                </button>
+            </div> 
+        `
+        UlCitemCart.appendChild(liItens)
+        })
+    }else {
+        // aparece carrinho vazio
+        cartvazio.classList.add ('apareceritens')
+        CitemCart.classList.remove('aparaceritens')
+    }
 }
+uptadeCart()

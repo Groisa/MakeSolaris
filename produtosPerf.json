@@ -1,35 +1,35 @@
 {
     "groups" : [
         {
-            "id": "1f",
+            "id": "a1f",
             "name": "Cremes",
             "products": [
                 {
-                    "id": "2f",
+                    "id": "a2f",
                     "name": "Novex",
                     "image": "imagens/teste.png",
                     "price" : 3.5
                 },
                 {
-                    "id": "3f",
+                    "id": "a3f",
                     "name": "Chanel",
                     "image": "imagens/teste.png",
                     "price":3.5
                 },
                 {
-                    "id": "4f",
+                    "id": "a4f",
                     "name": "Lyly",
                     "image":"imagens/teste.png",
                     "price":3.5
                 },
                 {
-                    "id": "5f",
+                    "id": "a5f",
                     "name": "Nyly",
                     "image" : "imagens/teste.png",
                     "price" :3.5
                 },
                 {
-                    "id": "6f",
+                    "id": "a6f",
                     "name": "Myly",
                     "image": "imagens/teste.png",
                     "price": 3.5
@@ -37,65 +37,65 @@
             ]
         },
         {
-            "id": "7f",
+            "id": "a7f",
             "name": "Perfumes",
             "products": [
                 {
-                    "id":"8f",
+                    "id":"a8f",
                     "name": "414",
                     "image":"imagens/teste.png",
                     "price":3.5
                 },
                 {
-                    "id":"9f",
+                    "id":"a9f",
                     "name": "Humilhão",
                     "image":"imagens/teste.png",
                     "price":3.5
                 },
                 {
-                    "id":"10f",
+                    "id":"a10f",
                     "name": "Razade",
                     "image":"imagens/teste.png",
                     "price":3.5
                 },
                 {
-                    "id":"11f",
+                    "id":"a11f",
                     "name": "Ogeo",
                     "image":"imagens/teste.png",
                     "price":3.5
                 },
                 {
-                    "id":"12f",
+                    "id":"a12f",
                     "name": "Lyly",
                     "image":"imagens/teste.png",
                     "price":3.5
                 },
                 {
-                    "id":"13f",
+                    "id":"a13f",
                     "name": "Ferrari",
                     "image":"imagens/teste.png",
                     "price":3.5
                 },
                 {
-                    "id":"14f",
+                    "id":"a14f",
                     "name": "Douce",
                     "image":"imagens/teste.png",
                     "price":3.5
                 },
                 {
-                    "id":"15f",
+                    "id":"a15f",
                     "name": "Chanel",
                     "image":"imagens/teste.png",
                     "price":3.5
                 },
                 {
-                    "id":"16f",
+                    "id":"a16f",
                     "name": "Darnel",
                     "image":"imagens/teste.png",
                     "price":3.5
                 },
                 {
-                    "id":"17f",
+                    "id":"a17f",
                     "name": "Mel",
                     "image":"imagens/teste.png",
                     "price":3.5
@@ -103,35 +103,35 @@
             ]
         },
         {
-            "id": "18f",
+            "id": "a18f",
             "name": "Sabonetes",
             "products": [
                 {
-                    "id": "19f",
+                    "id": "a19f",
                     "name": "Luix",
                     "image" :"imagens/teste.png",
                     "price":3.5
                 },
                 {
-                    "id": "20f",
+                    "id": "a20f",
                     "name": "Doves",
                     "image" :"imagens/teste.png",
                     "price":3.5
                 },
                 {
-                    "id": "21f",
+                    "id": "a21f",
                     "name": "Noves",
                     "image" :"imagens/teste.png",
                     "price":3.5
                 },
                 {
-                    "id": "22f",
+                    "id": "a22f",
                     "name": "Phebou",
                     "image" :"imagens/teste.png",
                     "price":3.5
                 },
                 {
-                    "id": "23f",
+                    "id": "a23f",
                     "name": "Debro",
                     "image" :"imagens/teste.png",
                     "price":3.5

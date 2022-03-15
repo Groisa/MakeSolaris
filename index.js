@@ -74,6 +74,26 @@ const removeCartItens = id => {
     })
     uptadeCart()
 }
+const inputadd = (id, newqty) => {
+   const inputAddNew = productscart.findIndex((product) => {
+        if(product === id){
+        return true
+        }
+        return false
+    })
+    productscart[inputAddNew].qty= newqty
+    uptadeCart()
+}
+const upQtyInput = (id, newqty1) => {
+    const productIndex = productscart.findIndex((product) => {
+        if(product.id === id) {
+            return true
+        }
+        return false
+    })
+    productscart[productIndex].qty = parseInt(newqty1)
+    uptadeCart()
+}
 const uptadeCart = () => {
     const cartvazio = document.querySelector('#apagarvaziocart')
     const CitemCart = document.querySelector('#apagarcart')
@@ -110,6 +130,18 @@ const uptadeCart = () => {
         const BtnRemove = liItens.querySelector('button')
         BtnRemove.addEventListener('click', () => {
             removeCartItens(product.id)
+        })
+        const InputQty = liItens.querySelector('input')
+        InputQty.addEventListener('keyup', (event) => {
+            upQtyInput(product.id , event.target.value)
+        })
+        InputQty.addEventListener('keydow', (event) => {
+          if (event.key === '-'|| event.key === '.' || event.key === ',' ) {
+            event.preventDefault()
+          }
+        })
+        InputQty.addEventListener('change', (event) => {
+            upQtyInput(product.id , event.target.value)
         })
         UlCitemCart.appendChild(liItens)
         })

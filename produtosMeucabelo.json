@@ -1,35 +1,35 @@
 {
     "groups": [
         {
-            "id": "1f",
+            "id": "d1f",
             "name": "Hidratação",
             "products": [
                 {
-                    "id": "2f",
+                    "id": "d2f",
                     "name": "Nivid",
                     "image": "imagens/teste.png",
                     "price": 3.5
                 },
                 {
-                    "id": "3f",
+                    "id": "d3f",
                     "name": "Nirol",
                     "image": "imagens/teste.png",
                     "price": 3.5
                 },
                 {
-                    "id": "4f",
+                    "id": "d4f",
                     "name": "Nenge",
                     "image": "imagens/teste.png",
                     "price": 3.5
                 },
                 {
-                    "id": "5f",
+                    "id": "d5f",
                     "name": "Doxx",
                     "image": "imagens/teste.png",
                     "price": 3.5
                 },
                 {
-                    "id": "6f",
+                    "id": "d6f",
                     "name": "Dunl",
                     "image": "imagens/teste.png",
                     "price": 3.5
@@ -37,41 +37,41 @@
             ]
         },
         {
-            "id" : "7f",
+            "id" : "d7f",
             "name" : " Shampoo & Condicionador",
             "products": [
                 {
-                    "id": "8f",
+                    "id": "d8f",
                     "name": "Loreal",
                     "image": "imagens/teste.png",
                     "price": 3.5
                 },
                 {
-                    "id": "9f",
+                    "id": "d9f",
                     "name": "Pantane",
                     "image": "imagens/teste.png",
                     "price": 3.5
                 },
                 {
-                    "id": "10f",
+                    "id": "d10f",
                     "name": "Menge",
                     "image": "imagens/teste.png",
                     "price": 3.5
                 },
                 {
-                    "id": "11f",
+                    "id": "d11f",
                     "name": "Sedol",
                     "image": "imagens/teste.png",
                     "price": 3.5
                 },
                 {
-                    "id": "12f",
+                    "id": "d12f",
                     "name": "Dini",
                     "image": "imagens/teste.png",
                     "price": 3.5
                 },
                 {
-                    "id": "13f",
+                    "id": "d13f",
                     "name": "Pantenel",
                     "image": "imagens/teste.png",
                     "price": 3.5
@@ -79,35 +79,35 @@
             ]
         },
         {
-            "id": "14f",
+            "id": "d14f",
             "name": "Óleo Reparador",
             "products": [
                 {
-                    "id": "15f",
+                    "id": "d15f",
                     "name": "Crind",
                     "image": "imagens/teste.png",
                     "price": 3.5
                 },
                 {
-                    "id": "16f",
+                    "id": "d16f",
                     "name": "Ringi",
                     "image": "imagens/teste.png",
                     "price": 3.5
                 },
                 {
-                    "id": "17f",
+                    "id": "d17f",
                     "name": "Dumil",
                     "image": "imagens/teste.png",
                     "price": 3.5
                 },
                 {
-                    "id": "18f",
+                    "id": "d18f",
                     "name": "Oucs",
                     "image": "imagens/teste.png",
                     "price": 3.5
                 },
                 {
-                    "id": "19f",
+                    "id": "d19f",
                     "name": "Vrunk",
                     "image": "imagens/teste.png",
                     "price": 3.5

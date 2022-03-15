@@ -327,6 +327,7 @@ footer div {
     margin-left: 50px;
 }
 #finalPedido {
+    text-decoration: none;
     margin-top: 30px;
     border: solid;
     width: 330px;
@@ -334,6 +335,7 @@ footer div {
     color: Black;
     background: #BEAEE2;
     text-shadow: none;
+    padding: 0 50px;
 
 }
 #valores {

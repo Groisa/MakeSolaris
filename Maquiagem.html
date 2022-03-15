@@ -10,7 +10,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap" rel="stylesheet">
-        
+</head>
 <body>
     <header class="header-page-two">
         <div class="header-div-one">
@@ -116,36 +116,46 @@
                 <p>Total</p>
                 <p>R$ 3,50</p>
             </div>
-            <button id="finalPedido"> Finalizar Pedido</button>
+          <div id="divancho">  <a id="finalPedido" href="finalizar-pedido.html">  Finalizar Pedido </a> </div>
         </div>     
     </aside>
     <!-- curtidos -->
-    <aside class="eu-amei">
+    <aside class="carrinho-compra">
         <header>
-            <button onclick="closelike()">
-            <i class="fa-solid fa-circle-xmark"></i></button>
-            <span>Eu Amei</span>
-            <button><i class="fa-solid fa-heart"></i></button>
+            <button onclick="closecart()"><i class="fa-solid fa-circle-xmark"></i></button>
+            <span>Carrinho de Compras</span>
+            <button>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </button>
         </header>
-        <div class="apagarvazio">
-            <div id="amei-vazio">
-                <img src="imagens/giphy.gif" alt="coração quebrando">
-                <p> Eu amei vazio...</p>
+    <div id="apagarvaziocart">
+            <div id="cart-vazio">
+                <img src="imagens/cart-empty-flat.d6b4b008.gif" alt="gif carrinho vazio">
+                <p>Carrinho Vazio...</p>
             </div>
         </div>
-        <div class="apagaritens">
-                <div id="Citem">
-                    <img src="imagens/teste.png" alt="">
-                    <div>
-                        <p> Nome</p>
-                        <p> R$3,50 </p>
-                    </div>
-                        <button class="excluiramei">
-                        <i class="fa-solid fa-circle-xmark"></i>
-                        </button>
-                </div>
-                <button id="finalPedido"> Finalizar Pedido</button>
-        </div>
+        <div id="apagarcart">
+            <ul>
+                <!-- <li>
+                    <div id="Citem">
+                        <img src="imagens/teste.png" alt="">
+                        <div>
+                            <p> Nome</p>
+                            <p> R$3,50 </p>
+                        </div>
+                        <input type="number"/>
+                            <button class="excluir">
+                            <i class="fa-solid fa-circle-xmark"></i>
+                            </button>
+                    </div> 
+                </li>  -->
+            </ul>
+            <div id="valores">
+                <p>Total</p>
+                <p>R$ 3,50</p>
+            </div>
+          <a id="finalPedido" href="finalizar-pedido.html">  Finalizar Pedido </a> 
+        </div>     
     </aside>
     <footer>
         <div class:provisoria><img src="#" alt="frete Gratis"></div>

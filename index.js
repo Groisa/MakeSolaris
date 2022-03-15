@@ -44,6 +44,10 @@ function closelike() {
 }       
 // Carrinho 
 let productscart =  []
+const saveProducts = localStorage.getItem('productscart')
+if(saveProducts){
+    productscart = JSON.parse(saveProducts)
+}
 const addcarrinho = (newitem) => {
     const buscadora = (produto) => {
         if (produto.id === newitem.id) {
@@ -63,7 +67,7 @@ const addcarrinho = (newitem) => {
     } else {
         productscart[resultadoIndex].qty = productscart[resultadoIndex].qty +1  
     }
-    uptadeCart()
+    uptadeCart(true)
 }
 const removeCartItens = id => {
     productscart = productscart.filter((product) => {
@@ -72,29 +76,30 @@ const removeCartItens = id => {
         }
         return true 
     })
-    uptadeCart()
-}
-const inputadd = (id, newqty) => {
-   const inputAddNew = productscart.findIndex((product) => {
-        if(product === id){
-        return true
-        }
-        return false
-    })
-    productscart[inputAddNew].qty= newqty
-    uptadeCart()
+    uptadeCart(true)
 }
 const upQtyInput = (id, newqty1) => {
-    const productIndex = productscart.findIndex((product) => {
-        if(product.id === id) {
-            return true
+    const NewQtyFalse = parseInt(newqty1)
+    if(isNaN(NewQtyFalse)) {
+        return
+    }
+        if(NewQtyFalse > 0){
+        const productIndex = productscart.findIndex((product) => {
+            if(product.id === id) {
+                return true
+            }
+            return false
+        })
+        productscart[productIndex].qty = parseInt(newqty1)
+        uptadeCart(false)
+        }else {
+            removeCartItens(id)
         }
-        return false
-    })
-    productscart[productIndex].qty = parseInt(newqty1)
-    uptadeCart()
 }
-const uptadeCart = () => {
+const uptadeCart = (renderItens) => {
+    // salva carrinho local store 
+    const prodctString = JSON.stringify(productscart)
+    localStorage.setItem('productscart', prodctString)
     const cartvazio = document.querySelector('#apagarvaziocart')
     const CitemCart = document.querySelector('#apagarcart')
     const UlCitemCart = CitemCart.querySelector('ul')
@@ -110,48 +115,51 @@ const uptadeCart = () => {
     //   aparecer carrinho com item
         CitemCart.classList.add('apareceritens')
         cartvazio.classList.remove('apareceritens')
-        UlCitemCart.innerHTML = ``
-        // exibir produto
-        productscart.forEach((product) => {
-        const liItens = document.createElement('li')
-        liItens.innerHTML = `
-            <div id="Citem">
-                <img src="${product.image}" alt="${product.name}">
-                <div >
-                    <p> ${product.name}</p>
-                    <p> ${product.price.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })} </p>
-                </div>
-                <input type="number" value="${product.qty}"/>
-                <button class="excluir">
-                    <i class="fa-solid fa-circle-xmark"></i>
-                </button>
-            </div> 
-        `
-        const BtnRemove = liItens.querySelector('button')
-        BtnRemove.addEventListener('click', () => {
-            removeCartItens(product.id)
-        })
-        const InputQty = liItens.querySelector('input')
-        InputQty.addEventListener('keyup', (event) => {
-            upQtyInput(product.id , event.target.value)
-        })
-        InputQty.addEventListener('keydow', (event) => {
-          if (event.key === '-'|| event.key === '.' || event.key === ',' ) {
-            event.preventDefault()
-          }
-        })
-        InputQty.addEventListener('change', (event) => {
-            upQtyInput(product.id , event.target.value)
-        })
-        UlCitemCart.appendChild(liItens)
-        })
-    }else {
-        // aparece carrinho vazio
-        cartvazio.classList.add ('apareceritens')
-        CitemCart.classList.remove('apareceritens')
-    }
+            if(renderItens) {
+            UlCitemCart.innerHTML = ``
+            // exibir produto
+            productscart.forEach((product) => {
+            const liItens = document.createElement('li')
+            liItens.innerHTML = `
+                <div id="Citem">
+                    <img src="${product.image}" alt="${product.name}">
+                    <div >
+                        <p> ${product.name}</p>
+                        <p> ${product.price.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })} </p>
+                    </div>
+                    <input type="number" value="${product.qty}"/>
+                    <button class="excluir">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </button>
+                </div> 
+            `
+            const BtnRemove = liItens.querySelector('button')
+            BtnRemove.addEventListener('click', () => {
+                removeCartItens(product.id)
+            })
+            const InputQty = liItens.querySelector('input')
+            InputQty.addEventListener('keyup', (event) => {
+                upQtyInput(product.id , event.target.value)
+            })
+            InputQty.addEventListener('keydow', (event) => {
+            if (event.key === '-'|| event.key === '.' || event.key === ',' ) {
+                event.preventDefault()
+            }
+            })
+            InputQty.addEventListener('change', (event) => {
+                upQtyInput(product.id , event.target.value)
+            })
+            UlCitemCart.appendChild(liItens)
+            })
+        }
+        }else {
+            // aparece carrinho vazio
+            cartvazio.classList.add ('apareceritens')
+            CitemCart.classList.remove('apareceritens')
+        }
 }
-uptadeCart()
+
+uptadeCart(true)
 
 
 

@@ -192,9 +192,13 @@ formGrups?.addEventListener('submit', (event) => {
       const subdomain = window.innerWidth > 768 ? 'web' : 'api'
       window.open(`https://${subdomain}.whatsapp.com/send?phone=5531983082389&text=${encodeURI(text)}`, '_blank')
     })
-
-
-
-
-
-// eu amei
+    if (typeof IMask !== 'undefined') {
+        const inPhone = document.querySelector('#input-phone')
+        IMask(inPhone, {
+          mask: '(00) 00000-0000'
+        })
+        const inCep = document.querySelector('#input-cep')
+        IMask(inCep, {
+          mask: '00000-000'
+        })
+      }

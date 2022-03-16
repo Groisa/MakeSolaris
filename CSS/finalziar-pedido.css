@@ -129,7 +129,8 @@ footer div {
     padding: 10px;
     margin-top: 20px ;
 }
-form-input {
+
+.form-input {
     border: 1px solid #8877b1;
     border-radius: 4px;
     height: 38px;
@@ -158,9 +159,9 @@ form-input {
   .form-row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 12px;
+    gap: 30px;
   }
-  .form-checkout {
+  .form-check {
      width:360px  ; 
      margin: 0 auto;
   }
@@ -183,7 +184,7 @@ form-input {
         margin-left: auto;
         margin-right: auto;
     }
-    .form-checkout {
+    .form-check {
         width: 700px;
     }
     .header-page-two {

@@ -21,7 +21,7 @@ function pesquisarInput(evento) {
     } else if(btnPesq == "maquiagem" || btnPesq == "maquiagens" || btnPesq == "make" || btnPesq == "Make"|| btnPesq == "Maquiagem" || btnPesq == "Maquiagens")  {
                 return window.location.replace("Maquiagem.html")
     }else if (btnPesq == "cabelo" || btnPesq == "meu cabelo" || btnPesq == "cabeleira" || btnPesq == "Cabeleira" || btnPesq == "Cabelo" || btnPesq == "Meu cabelo" || btnPesq == "Meu Cabelo") {
-                return window.location.replace("Meu-cabelo.html") 
+    return window.location.replace("Meu-cabelo.html") 
  }  
 document.getElementById("btn-pesq").addEventListener("click", pesquisarBtn )
 
@@ -96,13 +96,14 @@ const upQtyInput = (id, newqty1) => {
             removeCartItens(id)
         }
 }
+
+const cartvazio = document.querySelector('#apagarvaziocart')
+const CitemCart = document.querySelector('#apagarcart')
+const UlCitemCart = CitemCart ?.querySelector('ul')
 const uptadeCart = (renderItens) => {
     // salva carrinho local store 
     const prodctString = JSON.stringify(productscart)
     localStorage.setItem('productscart', prodctString)
-    const cartvazio = document.querySelector('#apagarvaziocart')
-    const CitemCart = document.querySelector('#apagarcart')
-    const UlCitemCart = CitemCart.querySelector('ul')
     if (productscart.length > 0) {
         let total = 0
         let totalPrice = 0
@@ -159,8 +160,38 @@ const uptadeCart = (renderItens) => {
         }
 }
 
+if (UlCitemCart){
 uptadeCart(true)
+}
 
+const formGrups = document.querySelector('.form-check')
+formGrups?.addEventListener('submit', (event) => {
+    event.preventDefault()
+    if (productscart.length == 0) {
+        alert('Nenhum produto no carrinho.')
+        return
+      }
+      let text = 'Confira o pedido abaixo:\n---------------------------------------\n\n'
+      let total = 0
+      productscart.forEach(product => {
+        text += `*${product.qty}x ${product.name}* - ${product.price.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}\n`
+        total += product.price * product.qty
+      })
+      text += '\n*Taxa de entrega:* A combinar\n'
+      text += `*Total: ${total.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}*`
+      text += '\n---------------------------------------\n\n'
+      text += `*${formGrups.elements['input-name'].value}*\n`
+      text += `${formGrups.elements['input-phone'].value}\n\n`
+      text += `${formGrups.elements['input-address'].value}, ${formGrups.elements['input-number'].value}`
+      const complement = formGrups.elements['input-complement'].value
+      if (complement) {
+        text+= ` - ${complement}`
+      }
+      text += `\n${formGrups.elements['input-neighborhood'].value}, ${formGrups.elements['input-city'].value}\n`
+      text += formGrups.elements['input-cep'].value
+      const subdomain = window.innerWidth > 768 ? 'web' : 'api'
+      window.open(`https://${subdomain}.whatsapp.com/send?phone=5531983082389&text=${encodeURI(text)}`, '_blank')
+    })
 
 
 

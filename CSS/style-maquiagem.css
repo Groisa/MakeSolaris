@@ -277,6 +277,23 @@ footer div {
 #apagarvaziocart {
     display: none;
 }
+#apagaritens {
+    display: none;
+}
+#apagarvazioamei {
+    display: none;
+}
+#apagaritens.apareceritens {
+    display: block;
+}
+#apagaritens ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#apagarvazioamei.apareceritens {
+    display: block;
+}
 .nonelist {
     list-style: none;
 }

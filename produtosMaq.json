@@ -7,36 +7,36 @@
                 {
                     "id":"2f",
                     "name": "Livid",
-                    "image":"imagens/teste.png",
-                    "price": 3.5
+                    "image":"imagens/Sombras/sombra1.jpg",
+                    "price": 10.5
 
                 },
                 {
                     "id":"3f",
                     "name":"Lirol",
-                    "image":"imagens/teste.png",
-                    "price": 3.5
+                    "image":"imagens/Sombras/sombra2.jpg",
+                    "price": 10.5
 
                 },
                 {
                     "id":"4f",
                     "name":"Menge",
-                    "image":"imagens/teste.png",
-                    "price": 3.5
+                    "image":"imagens/Sombras/sombra3.webp",
+                    "price": 10.5
 
                 },
                 {
                     "id":"6f",
                     "name":"Foxx",
-                    "image":"imagens/teste.png",
-                    "price": 3.5
+                    "image":"imagens/Sombras/sombra4.webp",
+                    "price": 10.5
 
                 },
                 {
                     "id":"7f",
                     "name":"Nunl",
-                    "image":"imagens/teste.png",
-                    "price": 3.5
+                    "image":"imagens/Sombras/sombra5.webp",
+                    "price": 10.5
 
                 }
                 
@@ -49,32 +49,32 @@
                 {
                    "id":"9f",
                    "name":"Nunsh",
-                   "image":"imagens/teste.png",
-                   "price":3.5
+                   "image":"imagens/póCompacto/PCOM1.jpg",
+                   "price":8.5
                 },
                 {
                     "id":"10f",
                     "name":"Crunsh",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/póCompacto/PCOM2.jpg",
+                    "price":8.5
                 },
                 {
                     "id": "11f",
                     "name":"Chunck",
-                    "image":"imagens/teste.png",
-                    "price": 3.5
+                    "image":"imagens/póCompacto/PCOM3.webp",
+                    "price": 8.5
                 },
                 {
                     "id": "12f",
                     "name":"Lux",
-                    "image": "imagens/teste.png",
-                    "price":3.5
+                    "image": "imagens/póCompacto/PCOM4.webp",
+                    "price":8.5
                 },
                 {
                     "id":"13f",
                     "name":"Dunk",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/póCompacto/PCOM15.jpg",
+                    "price":8.5
                 }
             ]
         },
@@ -85,20 +85,20 @@
                 {
                     "id":"15f",
                     "name": "Brunk",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/Rimel/3abeb5d6ba.webp",
+                    "price":9.5
                 },
                 {
                     "id":"16f",
                     "name": "Vunk",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/Rimel/1673469022_1GG.webp",
+                    "price":9.5
                 },
                 {
                     "id": "17f",
                     "name":"Linear",
-                    "image": "imagens/teste.png",
-                    "price":3.5
+                    "image": "imagens/Rimel/mascara-de-cilios-rimel-qic-2-em-1-para-maquiagem-766.jpg",
+                    "price":9.5
                 }
             ]
 
@@ -110,20 +110,20 @@
                 {
                     "id":"19f",
                     "name":"Delinar",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/delineador/delineador-liquido-vult-delineador-preto.webp",
+                    "price":9.6
                 },
                 {
                     "id": "20f",
                     "name": "Delioel",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/delineador/download.jpg",
+                    "price":9.6
                 },
                 {
                     "id":"21f",
                     "name": "Delidear",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/delineador/e144c968a2.webp",
+                    "price":9.6
                 }
             ]
         },
@@ -134,32 +134,32 @@
                 {
                     "id":"23f",
                     "name":"Magnet",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/cilios/32.webp",
+                    "price":21.5
                 },
                 {
                     "id":"24f",
                     "name":"Simple",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/cilios/515151.webp",
+                    "price":22.3
                 },
                 {
                     "id":"25f",
                     "name":"Brasileira",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/cilios/aasasa.webp",
+                    "price":21.8
                 },
                 {
                     "id":"26f",
                     "name":"Russa",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/cilios/s.jpg",
+                    "price":20.5
                 },
                 {
                     "id":"27f",
                     "name":"Classic",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/cilios/sa.jpg",
+                    "price":20.9
                 }
                 
             ]
@@ -172,20 +172,20 @@
                 {
                     "id":"29f",
                     "name":"Blusm",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/blush/download (2).jpg",
+                    "price":5.9
                 },
                 {
                     "id":"30f",
                     "name":"Blum",
-                    "image": "imagens/teste.png",
-                    "price": 3.5
+                    "image": "imagens/blush/7a9af3db-d34b-40f9-8221-28ca9b941029-catharine-hill-pressed-powder-carne-blush-matte-7g.webp",
+                    "price": 5.9
                 },
                 {
                     "id": "31f",
                     "name": "Blom",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/blush/download (1).jpg",
+                    "price":5.9
                 }
             ]
         },
@@ -196,62 +196,62 @@
                 {
                     "id": "33f",
                     "name":"Paixão",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/batons/vermelho.webp",
+                    "price":11.5
                 },
                 {
                     "id":"34f",
                     "name": "Azul Turco",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/batons/azul.jpg",
+                    "price":11.5
                 },
                 {
                     "id": "35f",
                     "name":"Sedução",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/batons/images (6).jpg",
+                    "price":11.5
                 },
                 {
                     "id": "36f",
                     "name": "Tímida",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/batons/images.jpg",
+                    "price":11.5
                 },
                 {
                     "id": "37f",
                     "name": "Balada",
-                    "image": "imagens/teste.png",
-                    "price":3.5
+                    "image": "imagens/batons/images (5).jpg",
+                    "price":11.5
                 },
                 {
                     "id": "38f",
                     "name":"Cheguei",
-                    "image": "imagens/teste.png",
-                    "price":3.5
+                    "image": "imagens/batons/images (4).jpg",
+                    "price":11.5
                 },
                 {
                     "id":"39f",
                     "name":"Manhã",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/batons/images (3).jpg",
+                    "price":11.5
                 },
                 {
                     "id": "40f",
                     "name":"Brasileira",
-                    "image": "imagens/teste.png",
-                    "price":3.5
+                    "image": "imagens/batons/images (2).jpg",
+                    "price":11.5
                 },
                 {
                     "id": "41f",
                     "name":"Casual",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/batons/images (1).jpg",
+                    "price":11.5
                 },
                 {
                     "id":"42f",
                     "name":"Intimida",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/batons/93269-B.webp",
+                    "price":11.5
                 }
             ]
         },

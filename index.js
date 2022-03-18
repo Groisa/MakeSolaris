@@ -202,3 +202,88 @@ formGrups?.addEventListener('submit', (event) => {
           mask: '00000-000'
         })
       }
+
+// eu amei
+
+let productsAmei = []
+const saveProductsamei = localStorage.getItem('productsAmei')
+if(saveProductsamei){
+    productsAmei = JSON.parse(saveProductsamei)
+}
+const addamei = (newitem) => {
+    const buscadora = (product) =>{
+        if (product.id === newitem.id) {
+        return true
+        }
+        return false
+    }
+    const resultadoIndexAmei = productsAmei.findIndex(buscadora)
+        if(resultadoIndexAmei === -1) {
+            productsAmei.push ({
+                id: newitem.id,
+                name: newitem.name,
+                image: newitem.image,
+                price: newitem.price,
+                qty: 1
+            })
+        }
+    console.log(resultadoIndexAmei ,"resultado")
+    upDateAmei()
+}
+const removeamei = id => {
+    productsAmei = productsAmei.filter((product) => {
+        if (product.id === id){
+            return false
+        }
+        return true 
+    })
+    upDateAmei()
+}
+// const carrinhoamei = id => {
+//     productsAmei = productsAmei.filter((product) => {
+//         return product.id === id
+//     })
+    
+//     console.log(productsAmei)
+// }
+const upDateAmei = () => {
+    const prodctString = JSON.stringify(productsAmei)
+    localStorage.setItem('productsAmei', prodctString)
+    const ameiitens = document.querySelector('#apagaritens')
+    const ameiSemItens = document.querySelector('#apagarvazioamei')
+    const AmeiItensUl = ameiitens.querySelector('ul')
+    if (productsAmei.length > 0){
+        AmeiItensUl.innerHTML = ``
+        ameiSemItens.classList.remove('apareceritens')
+        ameiitens.classList.add('apareceritens')  
+        productsAmei.forEach((product)=> {
+        const LiAmeiItens = document.createElement('li')
+        LiAmeiItens.innerHTML = `
+        <div id="Citem">
+             <img src="${product.image}" alt="${product.name}">
+            <div>
+                <p> ${product.name}</p>
+                <p> ${product.price.toLocaleString('pt-br', { style: 'currency', currency: 'BRL' })}  </p>
+            </div>
+            <button class="excluiramei">
+                <i class="fa-solid fa-circle-xmark"></i>
+            </button>
+        </div>
+        `
+        const BtnRemove = LiAmeiItens.querySelector('button')
+        BtnRemove.addEventListener('click', () => {
+            removeamei(product.id)
+        })
+        // const BtnAddCarinhoAmei = ameiitens.querySelector('.final')
+        // BtnAddCarinhoAmei.addEventListener('click',() => {
+        //     carrinhoamei()
+        //     // console.log(carrinhoamei)
+        // })
+        AmeiItensUl.appendChild(LiAmeiItens)
+    })
+        } else {
+        ameiitens.classList.remove('apareceritens')
+        ameiSemItens.classList.add('apareceritens')
+    }
+}
+upDateAmei()

@@ -29,15 +29,24 @@ const jsonProducts = () => {
              <div class="imgcard"><img src="${item.image}" alt="${item.name}"/></div>
              <h3 class="product-title"> ${item.name}</h3>
              <div class="btn-licar-geral">
-                 <button class="btn-licar"><i class="fa-solid fa-heart"></i></button>
-                 <button class="btn-licar"><i class="fa-solid fa-cart-shopping"></i></button>
+                 <button class="btn-licar" id="ameiadd"><i class="fa-solid fa-heart"></i></button>
+                 <button class="btn-licar" id="cartadd"><i class="fa-solid fa-cart-shopping"></i></button>
               </div>
              <p> R$ <span>${item.price.toLocaleString('pt-br', { minimumFractionDigits: 2 })}</span></p>
              <button class="btn-add"><p>Adicionar</p></button>
          `   
+
          const addCarrinhoBtnEl = cardDiv.querySelector('.btn-add')
          addCarrinhoBtnEl.addEventListener('click', () => {
             addcarrinho(item)
+         })
+         const addCart  = cardDiv.querySelector('#cartadd')
+         addCart.addEventListener('click', () => {
+             addcarrinho(item)
+         })
+         const addameiEl = cardDiv.querySelector('#ameiadd')
+         addameiEl.addEventListener('click' , () => {
+             addamei(item)
          })
          sectEl.appendChild(cardDiv)
      })

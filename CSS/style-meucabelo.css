@@ -347,6 +347,23 @@ footer div {
     justify-content: space-between;
     font-size: 20px;
 }
+#apagaritens {
+    display: none;
+}
+#apagarvazioamei {
+    display: none;
+}
+#apagaritens.apareceritens {
+    display: block;
+}
+#apagaritens ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#apagarvazioamei.apareceritens {
+    display: block;
+}
 @media (min-width: 800px) {
     .corpo {
         width: 700px;

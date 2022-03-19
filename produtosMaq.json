@@ -262,31 +262,31 @@
                 {
                     "id": "44f",
                     "name":"Seduct",
-                    "image": "imagens/teste.png",
+                    "image": "imagens/gloss/download (1).jpg",
                     "price": 3.5
                 },
                 {
                     "id": "45f",
                     "name": "Intensive",
-                    "image": "imagens/teste.png",
+                    "image": "imagens/gloss/download (2).jpg",
                     "price": 3.5
                 },
                 {
                     "id": "46f",
                     "name": "Lirio",
-                    "image": "imagens/teste.png",
+                    "image": "imagens/gloss/download (3).jpg",
                     "price": 3.5
                 },
                 {
                     "id": "47f",
                     "name": "Ousadia",
-                    "image": "imagens/teste.png",
+                    "image": "imagens/gloss/download.jpg",
                     "price": 3.5
                 },
                 {
                     "id": "48",
                     "name":"Oux",
-                    "image": "imagens/teste.png",
+                    "image": "imagens/gloss/gloss-labial-bt-jelly-clear--1-.webp",
                     "price": 3.5
                 }
             ]

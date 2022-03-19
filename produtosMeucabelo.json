@@ -7,32 +7,32 @@
                 {
                     "id": "d2f",
                     "name": "Nivid",
-                    "image": "imagens/teste.png",
-                    "price": 3.5
+                    "image": "imagens/hidratante/04e0a9884f.webp",
+                    "price":15.2
                 },
                 {
                     "id": "d3f",
                     "name": "Nirol",
-                    "image": "imagens/teste.png",
-                    "price": 3.5
+                    "image": "imagens/hidratante/AP2000882CR87_mascara_capilar_hidratante_para_todos_os_tipos_de_cabelo_bisnaga_hair_mask_100ml_1.webp",
+                    "price":15.2
                 },
                 {
                     "id": "d4f",
                     "name": "Nenge",
-                    "image": "imagens/teste.png",
-                    "price": 3.5
+                    "image": "imagens/hidratante/creme_hidratante_capilar_vegano_biopsor_200_ml_2809_1_20200527164047.webp",
+                    "price": 15.2
                 },
                 {
                     "id": "d5f",
                     "name": "Doxx",
-                    "image": "imagens/teste.png",
-                    "price": 3.5
+                    "image": "imagens/hidratante/images.jpg",
+                    "price": 15.2
                 },
                 {
                     "id": "d6f",
                     "name": "Dunl",
-                    "image": "imagens/teste.png",
-                    "price": 3.5
+                    "image": "imagens/hidratante/mascara_hidratante_capilar_alta_tecnologia_urban_hidract_home_care_300ml_4379_1_20210422122753.webp",
+                    "price": 15.2
                 }
             ]
         },
@@ -43,38 +43,38 @@
                 {
                     "id": "d8f",
                     "name": "Loreal",
-                    "image": "imagens/teste.png",
-                    "price": 3.5
+                    "image": "imagens/shampoo e cond/images (1).jpg",
+                    "price": 16.25
                 },
                 {
                     "id": "d9f",
                     "name": "Pantane",
-                    "image": "imagens/teste.png",
-                    "price": 3.5
+                    "image": "imagens/shampoo e cond/images (2).jpg",
+                    "price": 15.25
                 },
                 {
                     "id": "d10f",
                     "name": "Menge",
-                    "image": "imagens/teste.png",
-                    "price": 3.5
+                    "image": "imagens/shampoo e cond/images (3).jpg",
+                    "price": 15.25
                 },
                 {
                     "id": "d11f",
                     "name": "Sedol",
-                    "image": "imagens/teste.png",
-                    "price": 3.5
+                    "image": "imagens/shampoo e cond/images.jpg",
+                    "price": 15.25
                 },
                 {
                     "id": "d12f",
                     "name": "Dini",
-                    "image": "imagens/teste.png",
-                    "price": 3.5
+                    "image": "imagens/shampoo e cond/Kit-Secrets-Shampoo---Condicionador-Reconstrutor.png",
+                    "price": 15.25
                 },
                 {
                     "id": "d13f",
                     "name": "Pantenel",
-                    "image": "imagens/teste.png",
-                    "price": 3.5
+                    "image": "imagens/shampoo e cond/Kit-01.webp",
+                    "price": 15.25
                 }
             ]
         },
@@ -85,32 +85,32 @@
                 {
                     "id": "d15f",
                     "name": "Crind",
-                    "image": "imagens/teste.png",
-                    "price": 3.5
+                    "image": "imagens/oleo/download (1).jpg",
+                    "price":  12.5
                 },
                 {
                     "id": "d16f",
                     "name": "Ringi",
-                    "image": "imagens/teste.png",
-                    "price": 3.5
+                    "image": "imagens/oleo/download.jpg",
+                    "price":  12.5
                 },
                 {
                     "id": "d17f",
                     "name": "Dumil",
-                    "image": "imagens/teste.png",
-                    "price": 3.5
+                    "image": "imagens/oleo/images (1).jpg",
+                    "price":  12.5
                 },
                 {
                     "id": "d18f",
                     "name": "Oucs",
-                    "image": "imagens/teste.png",
-                    "price": 3.5
+                    "image": "imagens/oleo/images (2).jpg",
+                    "price":  12.5
                 },
                 {
                     "id": "d19f",
                     "name": "Vrunk",
-                    "image": "imagens/teste.png",
-                    "price": 3.5
+                    "image": "imagens/oleo/images.jpg",
+                    "price": 12.5
                 }
             ]
         }

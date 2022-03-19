@@ -291,6 +291,11 @@ footer div {
     padding: 0;
     margin: 0;
 }
+.coluns div{
+    padding: 15px;
+    background: #BEAEE2;
+    border-radius: 10px;
+}
 #apagarvazioamei.apareceritens {
     display: block;
 }

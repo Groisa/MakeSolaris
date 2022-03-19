@@ -356,6 +356,11 @@ footer div {
 #apagaritens.apareceritens {
     display: block;
 }
+.coluns div{
+    padding: 15px;
+    background: #BEAEE2;
+    border-radius: 10px;
+}
 #apagaritens ul, li {
     list-style: none;
     padding: 0;

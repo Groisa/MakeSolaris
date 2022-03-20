@@ -7,32 +7,32 @@
                 {
                     "id": "a2f",
                     "name": "Novex",
-                    "image": "imagens/teste.png",
-                    "price" : 3.5
+                    "image": "imagens/cremes/depositphotos_65904661-stock-photo-blue-beauty-products.jpg",
+                    "price" : 15.3
                 },
                 {
                     "id": "a3f",
                     "name": "Chanel",
-                    "image": "imagens/teste.png",
-                    "price":3.5
+                    "image": "imagens/cremes/download.jpg",
+                    "price": 15.3
                 },
                 {
                     "id": "a4f",
                     "name": "Lyly",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/cremes/jpg_20211222_000641_0000__1_.webp",
+                    "price":  15.3
                 },
                 {
                     "id": "a5f",
                     "name": "Nyly",
-                    "image" : "imagens/teste.png",
-                    "price" :3.5
+                    "image" : "imagens/cremes/rIJ-CpS-creme-para-o-rosto.jpg",
+                    "price" : 15.3
                 },
                 {
                     "id": "a6f",
                     "name": "Myly",
-                    "image": "imagens/teste.png",
-                    "price": 3.5
+                    "image": "imagens/cremes/thumb_cremes-faciais-tratamento-creme-antioxidante-pro-aging--p-1629325973307.jpg",
+                    "price":  15.3
                 }
             ]
         },
@@ -43,62 +43,62 @@
                 {
                     "id":"a8f",
                     "name": "414",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/perfumes/images (1).jpg",
+                    "price":563.5
                 },
                 {
                     "id":"a9f",
                     "name": "Humilhão",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/perfumes/images (2).jpg",
+                    "price":653.5
                 },
                 {
                     "id":"a10f",
                     "name": "Razade",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/perfumes/images (3).jpg",
+                    "price":203.5
                 },
                 {
                     "id":"a11f",
                     "name": "Ogeo",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/perfumes/images (4).jpg",
+                    "price":364.5
                 },
                 {
                     "id":"a12f",
                     "name": "Lyly",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/perfumes/images (5).jpg",
+                    "price":352.5
                 },
                 {
                     "id":"a13f",
                     "name": "Ferrari",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/perfumes/images (6).jpg",
+                    "price":133.5
                 },
                 {
                     "id":"a14f",
                     "name": "Douce",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/perfumes/images (7).jpg",
+                    "price":103.5
                 },
                 {
                     "id":"a15f",
                     "name": "Chanel",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/perfumes/images (8).jpg",
+                    "price":302.5
                 },
                 {
                     "id":"a16f",
                     "name": "Darnel",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/perfumes/images (9).jpg",
+                    "price":203.5
                 },
                 {
                     "id":"a17f",
                     "name": "Mel",
-                    "image":"imagens/teste.png",
-                    "price":3.5
+                    "image":"imagens/perfumes/images.jpg",
+                    "price":135.8
                 }
             ]
         },
@@ -109,32 +109,32 @@
                 {
                     "id": "a19f",
                     "name": "Luix",
-                    "image" :"imagens/teste.png",
+                    "image" :"imagens/sabonetes/41zizzIh1YL._AC_SL1200_.jpg",
                     "price":3.5
                 },
                 {
                     "id": "a20f",
                     "name": "Doves",
-                    "image" :"imagens/teste.png",
-                    "price":3.5
+                    "image" :"imagens/sabonetes/images (1).jpg",
+                    "price":2.35
                 },
                 {
                     "id": "a21f",
                     "name": "Noves",
-                    "image" :"imagens/teste.png",
-                    "price":3.5
+                    "image" :"imagens/sabonetes/images (2).jpg",
+                    "price":4.65
                 },
                 {
                     "id": "a22f",
                     "name": "Phebou",
-                    "image" :"imagens/teste.png",
-                    "price":3.5
+                    "image" :"imagens/sabonetes/images (10).jpg",
+                    "price":3.99
                 },
                 {
                     "id": "a23f",
                     "name": "Debro",
-                    "image" :"imagens/teste.png",
-                    "price":3.5
+                    "image" :"imagens/sabonetes/images.jpg",
+                    "price":5.54
                 }
             ]
         }

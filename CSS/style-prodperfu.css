@@ -528,6 +528,12 @@ footer div {
     .header-page-five {
         padding: 0 150px;
     }
+    #menu {
+        width: 360px;
+    }
+    .div-pesq input {
+        width: 200px;
+    }
 }
 @media (min-width: 390px) {
     .eu-amei {

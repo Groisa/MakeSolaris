@@ -381,6 +381,16 @@ footer div {
         bottom: 0;
         width: 100%;
     }
+    .coluns img {
+        width: 150px;
+        height: 150px;
+    }
+    #menu {
+        width: 360px;
+    }
+    .div-pesq input {
+        width: 200px;
+    }
 }
 @media (min-width: 500px) {
     .eu-amei {

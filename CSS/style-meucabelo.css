@@ -378,6 +378,16 @@ footer div {
     .header-page-four {
         padding: 0 150px;
     }
+    .coluns img {
+        width: 150px;
+        height: 150px;
+    }
+    #menu {
+        width: 360px;
+    }
+    .div-pesq input {
+        width: 200px;
+    }
 }
 @media (min-width: 500px) {
     .eu-amei {

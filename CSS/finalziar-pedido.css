@@ -99,6 +99,18 @@ body {
     cursor: pointer;
     
 }
+.header-div-one {
+    display: flex;
+    align-items: center;
+}
+.header-div-one p {
+    color: #BEAEE2;
+    font-family: 'Lobster', cursive;
+    text-shadow: #8877b1 1px 1px 0px ;
+    font-size: 30px;
+    margin: 0px 20px;
+    padding: 0px;
+}
 .header-div-one img {
     margin-left: 20px ;
     color: black;

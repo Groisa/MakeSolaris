@@ -99,6 +99,18 @@ body {
     color: black;
     
 }
+.header-div-one {
+    display: flex;
+    align-items: center;
+}
+.header-div-one p {
+    color: #BEAEE2;
+    font-family: 'Lobster', cursive;
+    text-shadow: #8877b1 1px 1px 0px ;
+    font-size: 30px;
+    margin: 0px 20px;
+    padding: 0px;
+}
 .header-div-two button {
     margin-left: 20px ;
     font-size: 25px;
@@ -511,6 +523,16 @@ footer div {
 #apagarvazioamei.apareceritens {
     display: block;
 }
+h1 {
+    color: #BEAEE2;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    position: relative ;
+    top: 15px;
+    font-family: 'Lobster', cursive;
+    text-shadow: #8877b1 1px 4px 0px ;
+}
 
 @media (min-width: 800px) {
     .corpo {
@@ -524,8 +546,18 @@ footer div {
     #menu {
         width: 360px;
     }
+    #menu a {
+        font-size: 28px ;
+    }
     .div-pesq input {
         width: 200px;
+        font-size: 25px ;
+    }
+    h2 {
+        font-size: 60px;
+    }
+    h1 {
+        font-size: 90px ;
     }
 }
 @media (min-width: 390px) {

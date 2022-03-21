@@ -97,6 +97,18 @@ body {
     color: black;
     
 }
+.header-div-one {
+    display: flex;
+    align-items: center;
+}
+.header-div-one p {
+    color: #BEAEE2;
+    font-family: 'Lobster', cursive;
+    text-shadow: #8877b1 1px 1px 0px ;
+    font-size: 30px;
+    margin: 0px 20px;
+    padding: 0px;
+}
 .header-div-two button {
     margin-left: 20px ;
     font-size: 25px;
@@ -388,8 +400,19 @@ footer div {
     #menu {
         width: 360px;
     }
+    #menu a {
+        font-size: 28px ;
+    }
     .div-pesq input {
         width: 200px;
+        font-size: 25px ;
+    }
+    h1 {
+        font-size: 70px;
+    }
+    .img-perf{
+        width: 350px;
+        height: 350px;
     }
 }
 @media (min-width: 500px) {

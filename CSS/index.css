@@ -93,6 +93,18 @@ body {
     cursor: pointer;
     margin-left: 15px;
 }
+.header-div-one {
+    display: flex;
+    align-items: center;
+}
+.header-div-one p {
+    color: #BEAEE2;
+    font-family: 'Lobster', cursive;
+    text-shadow: #8877b1 1px 1px 0px ;
+    font-size: 30px;
+    margin: 0px 20px;
+    padding: 0px;
+}
 .header-div-one span {
     font-size: 25px;
     font-weight: bold;
@@ -103,7 +115,6 @@ body {
 .header-div-one img {
     margin-left: 20px ;
     color: black;
-    
 }
 .header-div-two button {
     margin-left: 20px ;
@@ -138,18 +149,13 @@ h1 {
     top: 15px;
 }
 /* Retirar depois, so para fins de teste */
-.promo p {
-    display: flex;
-    color: white;
-    position: relative;
-    top: -120px;
-    left: 120px;
-}
+
 /* top do momento */
 h2 {
     padding: 0px;
     font-size: 25px;
     margin: 0px;
+    margin-top: 50px;
     margin-bottom:20px;
     text-align: center;
     color: #BEAEE2;
@@ -449,8 +455,27 @@ footer div {
     #menu {
         width: 360px;
     }
+    #menu a {
+        font-size: 28px ;
+    }
     .div-pesq input {
         width: 200px;
+        font-size: 25px ;
+    }
+    h1 {
+        font-size: 70px;
+    }
+    h2 {
+        font-size: 50px;
+        padding-top: 60px;
+    }
+    .promo img {
+        width: 300px;
+        height: 300px;
+    }
+    .image-feedback img {
+        width: 660px;
+        height: 264px;
     }
 }
 @media (min-width: 500px) {

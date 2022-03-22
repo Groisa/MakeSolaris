@@ -245,8 +245,10 @@ const carrinhoamei = () => {
         const IndexProduct = productscart.findIndex(productcart => productcart.id === product.id)
         if (IndexProduct === -1) {
             productscart.push(product)
+            alert('Produto Adicionado ao carrinho')
         } else {
             productscart[IndexProduct].qty++
+            alert('Quantidade do Produto foi alterada')
         }
     })
     uptadeCart(true)

@@ -1,5 +1,6 @@
 
-![logo](/imagens/Logo Solaris.png)
+![Logo Solaris](https://user-images.githubusercontent.com/98929007/162553427-957c353c-b65f-4ca7-8ba9-936d26940e88.png)
+
 
 # Solaris Make
 O projeto do SolarisMake, parte da curiosidade e iniciativa de um jovem de 18 anos com sede de aprender e inciar no mercado de trabalho como 

@@ -1,5 +1,6 @@
-
-![Logo Solaris](https://user-images.githubusercontent.com/98929007/162553427-957c353c-b65f-4ca7-8ba9-936d26940e88.png)
+  <div align="center">
+    <img src='https://user-images.githubusercontent.com/98929007/162553427-957c353c-b65f-4ca7-8ba9-936d26940e88.png' width='190px' heigth='196px'/ >
+  </div>
 
 
 # Solaris Make
@@ -8,6 +9,7 @@ desenvolvedor.
 Esse projeto foi pensado para idealizar o sonho da minha namorada, que sempre foi ter a propria loja.
 Como primerio projeto acho muito gratificante esta idealizando e realizando ele, uma vez que ao longo do tempo esse projeto só irar crescer
 **Link de Hospedagem** : https://quirky-fermi-6e84ae.netlify.app/
+
 
 ## Funcionalidades
 

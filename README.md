@@ -9,7 +9,9 @@ desenvolvedor.
 Esse projeto foi pensado para idealizar o sonho da minha namorada, que sempre foi ter a propria loja.
 Como primerio projeto acho muito gratificante esta idealizando e realizando ele, uma vez que ao longo do tempo esse projeto só irar crescer
 **Link de Hospedagem** : https://quirky-fermi-6e84ae.netlify.app/
-
+  <div> 
+    <img src="https://github.com/Groisa/MakeSolaris/issues/2#issue-1198053013" />
+  </div>
 
 ## Funcionalidades
 
